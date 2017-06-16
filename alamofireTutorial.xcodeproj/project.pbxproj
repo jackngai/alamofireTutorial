@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		981A32F51EF427CB001A9887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A32F41EF427CB001A9887 /* AppDelegate.swift */; };
-		981A32F71EF427CB001A9887 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A32F61EF427CB001A9887 /* ViewController.swift */; };
-		981A32FA1EF427CB001A9887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981A32F81EF427CB001A9887 /* Main.storyboard */; };
+		981A32F71EF427CB001A9887 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A32F61EF427CB001A9887 /* TableViewController.swift */; };
 		981A32FC1EF427CB001A9887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981A32FB1EF427CB001A9887 /* Assets.xcassets */; };
 		981A32FF1EF427CB001A9887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981A32FD1EF427CB001A9887 /* LaunchScreen.storyboard */; };
 		F0FF10998879DDCABD4E2038 /* Pods_alamofireTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BB33A01122DCC287743058 /* Pods_alamofireTutorial.framework */; };
@@ -18,8 +17,7 @@
 /* Begin PBXFileReference section */
 		981A32F11EF427CB001A9887 /* alamofireTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alamofireTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		981A32F41EF427CB001A9887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		981A32F61EF427CB001A9887 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		981A32F91EF427CB001A9887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		981A32F61EF427CB001A9887 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		981A32FB1EF427CB001A9887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		981A32FE1EF427CB001A9887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		981A33001EF427CB001A9887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,8 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				981A32F41EF427CB001A9887 /* AppDelegate.swift */,
-				981A32F61EF427CB001A9887 /* ViewController.swift */,
-				981A32F81EF427CB001A9887 /* Main.storyboard */,
+				981A32F61EF427CB001A9887 /* TableViewController.swift */,
 				981A32FB1EF427CB001A9887 /* Assets.xcassets */,
 				981A32FD1EF427CB001A9887 /* LaunchScreen.storyboard */,
 				981A33001EF427CB001A9887 /* Info.plist */,
@@ -153,7 +150,6 @@
 			files = (
 				981A32FF1EF427CB001A9887 /* LaunchScreen.storyboard in Resources */,
 				981A32FC1EF427CB001A9887 /* Assets.xcassets in Resources */,
-				981A32FA1EF427CB001A9887 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				981A32F71EF427CB001A9887 /* ViewController.swift in Sources */,
+				981A32F71EF427CB001A9887 /* TableViewController.swift in Sources */,
 				981A32F51EF427CB001A9887 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,14 +216,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		981A32F81EF427CB001A9887 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				981A32F91EF427CB001A9887 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		981A32FD1EF427CB001A9887 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -381,6 +369,7 @@
 				981A33051EF427CB001A9887 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
